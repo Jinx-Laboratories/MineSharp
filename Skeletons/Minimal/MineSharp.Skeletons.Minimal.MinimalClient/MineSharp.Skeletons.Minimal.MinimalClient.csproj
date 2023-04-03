@@ -8,6 +8,7 @@
         <Authors>Jinx-Laboratories</Authors>
     </PropertyGroup>
     <ItemGroup>
-      <PackageReference Include="MineSharp.Skeletons.Barebones.Client" Version="1.0.0" />
+      <PackageReference Include="MineSharp.Skeletons.Barebones.Client" Version="1.0.0"/>
+        <PackageReference Include="MineSharp.Components.MojangAuth" Version="1.0.0"/>
     </ItemGroup>
 </Project>

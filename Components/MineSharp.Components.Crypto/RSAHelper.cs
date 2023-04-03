@@ -1,6 +1,5 @@
 ﻿using MineSharp.Components.Core.Logging;
 using System.Diagnostics;
-using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 namespace MineSharp.Components.Crypto
 {

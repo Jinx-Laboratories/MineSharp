@@ -12,9 +12,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="minesharp.components.core" Version="1.0.0" />
-        <PackageReference Include="minesharp.data" Version="1.0.0" />
         <PackageReference Include="Spectre.Console" Version="0.46.0" />
+        <PackageReference Include="MineSharp.Data" Version="1.0.0" />
+        <PackageReference Include="MineSharp.Components.Core" Version="1.0.0" />
     </ItemGroup>
 
     <ItemGroup>

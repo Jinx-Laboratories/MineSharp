@@ -8,6 +8,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/Jinx-Laboratories/MineSharp.git</RepositoryUrl>
     <Authors>Jinx-Laboratories</Authors>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -19,7 +20,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="minesharp.components.core" Version="1.0.0" />
+    <PackageReference Include="MineSharp.Components.Core" Version="1.0.0" />
     <PackageReference Include="MiNET.fnbt" Version="1.0.22" />
   </ItemGroup>
 

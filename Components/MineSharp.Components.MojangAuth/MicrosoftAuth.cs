@@ -1,10 +1,7 @@
-using CmlLib.Core.Auth;
 using CmlLib.Core.Auth.Microsoft;
 using CmlLib.Core.Auth.Microsoft.MsalClient;
 using Microsoft.Identity.Client;
 using MineSharp.Components.Core.Types;
-using System.Diagnostics;
-using System.Runtime.InteropServices;
 
 namespace MineSharp.Components.MojangAuth
 {
