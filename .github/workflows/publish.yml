@@ -15,7 +15,17 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: '6.0.x'
+          dotnet-version: '8.0.x'
+          
+      - name: Update version in release branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git checkout release
+          version=$(git tag --list --points-at HEAD)
+          sed -i.bak "s|<Version>.*</Version>|<Version>$version</Version>|" **/*.csproj
+          git commit -a -m "Bump version to $version"
+          git push
 
       - name: Build and Publish NuGet Packages
         env:
@@ -27,13 +37,3 @@ jobs:
             dotnet nuget push bin/Release/*.nupkg --skip-duplicate --api-key ${{ secrets.NUGET_API_KEY }}
             cd -
           done
-
-      - name: Update version in release branch
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git checkout release
-          version=$(git tag --list --points-at HEAD)
-          sed -i.bak "s|<Version>.*</Version>|<Version>$version</Version>|" **/*.csproj
-          git commit -a -m "Bump version to $version"
-          git push
