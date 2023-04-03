@@ -23,7 +23,7 @@ jobs:
         run: |
           for d in $(find . -type f -name '*.csproj' -printf '%h\n' | sort -u); do
             cd $d
-            dotnet pack -c Release
+            dotnet build -c Release
             dotnet nuget push bin/Release/*.nupkg --skip-duplicate --api-key ${{ secrets.NUGET_API_KEY }}
             cd -
           done
