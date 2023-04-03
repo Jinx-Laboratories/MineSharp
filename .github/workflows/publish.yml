@@ -17,11 +17,11 @@ jobs:
         with:
           dotnet-version: '8'
           
-      - name: Update version in release branch
+      - name: Update version in main branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git checkout release
+          git checkout main
           version=$(git tag --list --points-at HEAD)
           sed -i.bak "s|<Version>.*</Version>|<Version>$version</Version>|" **/*.csproj
           git commit -a -m "Bump version to $version"
