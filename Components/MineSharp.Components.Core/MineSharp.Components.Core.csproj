@@ -15,5 +15,4 @@
         <PackageReference Include="MiNET.fnbt" Version="1.0.22" />
         <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     </ItemGroup>
-
 </Project>

@@ -13,15 +13,8 @@
 
     <ItemGroup>
         <PackageReference Include="BouncyCastle.NetCore" Version="1.9.0" />
+        <PackageReference Include="MineSharp.Components.Crypto" Version="1.0.0" />
         <PackageReference Include="SharpZipLib" Version="1.4.2" />
         <PackageReference Include="System.ValueTuple" Version="4.5.0" />
     </ItemGroup>
-
-    <ItemGroup>
-        <ProjectReference Include="..\..\Data\MineSharp.Data\MineSharp.Data.csproj" />
-        <ProjectReference Include="..\MineSharp.Components.Core\MineSharp.Components.Core.csproj" />
-        <ProjectReference Include="..\MineSharp.Components.Crypto\MineSharp.Components.Crypto.csproj" />
-        <ProjectReference Include="..\MineSharp.Components.MojangAuth\MineSharp.Components.MojangAuth.csproj" />
-    </ItemGroup>
-
 </Project>

@@ -1,8 +1,5 @@
 ﻿using System.Net;
 using System.Net.Sockets;
-using MineSharp.Components.Core.Types.Enums;
-using MineSharp.Data.Protocol;
-using MineSharp.Components.Protocol;
 namespace MineSharp.Skeletons.Barebones.Server
 {
 	public class MinecraftServer

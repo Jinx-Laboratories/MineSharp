@@ -13,11 +13,7 @@
     <ItemGroup>
         <PackageReference Include="CmlLib.Core.Auth.Microsoft" Version="2.2.0" />
         <PackageReference Include="CmlLib.Core.Auth.Microsoft.MsalClient" Version="2.0.0" />
+        <PackageReference Include="MineSharp.Components.Core" Version="1.0.0" />
         <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     </ItemGroup>
-
-    <ItemGroup>
-        <ProjectReference Include="..\MineSharp.Components.Core\MineSharp.Components.Core.csproj" />
-    </ItemGroup>
-
 </Project>

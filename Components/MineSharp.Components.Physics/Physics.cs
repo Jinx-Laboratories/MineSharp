@@ -2,7 +2,7 @@
 using MineSharp.Components.Core.Types;
 using MineSharp.Data.Blocks;
 using MineSharp.Data.Effects;
-using MineSharp.Data;
+
 using Attribute = MineSharp.Components.Core.Types.Attribute;
 
 /*
@@ -20,7 +20,7 @@ namespace MineSharp.Components.Physics
 
         public Entity Player;
         public PlayerState PlayerState;
-        public World.World World;
+        public World World;
 
         public PhysicsEngine(Entity player, World.World world)
         {

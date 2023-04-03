@@ -10,9 +10,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\..\Components\MineSharp.Components.Core\MineSharp.Components.Core.csproj" />
-      <ProjectReference Include="..\..\..\Components\MineSharp.Components.Protocol\MineSharp.Components.Protocol.csproj" />
-      <ProjectReference Include="..\..\..\Data\MineSharp.Data\MineSharp.Data.csproj" />
+      <PackageReference Include="MineSharp.Components.Protocol" Version="1.0.0" />
     </ItemGroup>
-
 </Project>

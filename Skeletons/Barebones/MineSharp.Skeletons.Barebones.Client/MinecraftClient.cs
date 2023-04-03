@@ -1,9 +1,9 @@
 ﻿using System.Diagnostics.CodeAnalysis;
-using MineSharp.Components.Core.Types.Enums;
-using MineSharp.Data.Protocol;
-using MineSharp.Components.Protocol;
 using System.Net;
 using System.Net.Sockets;
+using MineSharp.Components.Core.Types.Enums;
+using MineSharp.Components.Protocol;
+using MineSharp.Data.Protocol;
 
 namespace MineSharp.Skeletons.Barebones.Client
 {
