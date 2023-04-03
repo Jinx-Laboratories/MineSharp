@@ -7,7 +7,7 @@
         <LangVersion>11</LangVersion>
         <TargetFramework>net8.0</TargetFramework>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <RepositoryUrl>https://github.com/Jinx-Laboratories/JinxCraft.git</RepositoryUrl>
+        <RepositoryUrl>https://github.com/Jinx-Laboratories/MineSharp.git</RepositoryUrl>
         <Authors>Jinx-Laboratories</Authors>
     </PropertyGroup>
 
