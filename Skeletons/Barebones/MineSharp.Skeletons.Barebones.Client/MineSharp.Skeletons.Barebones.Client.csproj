@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <RepositoryUrl>https://github.com/Jinx-Laboratories/JinxCraft.git</RepositoryUrl>
+        <Authors>Jinx-Laboratories</Authors>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\Components\MineSharp.Components.Core\MineSharp.Components.Core.csproj" />
+      <ProjectReference Include="..\..\..\Components\MineSharp.Components.Protocol\MineSharp.Components.Protocol.csproj" />
+      <ProjectReference Include="..\..\..\Data\MineSharp.Data\MineSharp.Data.csproj" />
+    </ItemGroup>
+
+</Project>

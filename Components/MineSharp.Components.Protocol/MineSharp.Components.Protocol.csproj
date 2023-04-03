@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AnalysisLevel>none</AnalysisLevel>
+        <LangVersion>11</LangVersion>
+        <TargetFramework>net7.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <RepositoryUrl>https://github.com/Jinx-Laboratories/JinxCraft.git</RepositoryUrl>
+        <Authors>Jinx-Laboratories</Authors>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="BouncyCastle.NetCore" Version="1.9.0" />
+        <PackageReference Include="SharpZipLib" Version="1.4.2" />
+        <PackageReference Include="System.ValueTuple" Version="4.5.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\Data\MineSharp.Data\MineSharp.Data.csproj" />
+        <ProjectReference Include="..\MineSharp.Components.Core\MineSharp.Components.Core.csproj" />
+        <ProjectReference Include="..\MineSharp.Components.Crypto\MineSharp.Components.Crypto.csproj" />
+        <ProjectReference Include="..\MineSharp.Components.MojangAuth\MineSharp.Components.MojangAuth.csproj" />
+    </ItemGroup>
+
+</Project>

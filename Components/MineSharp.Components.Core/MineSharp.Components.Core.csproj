@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <LangVersion>11</LangVersion>
+        <TargetFramework>net7.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <RepositoryUrl>https://github.com/Jinx-Laboratories/JinxCraft.git</RepositoryUrl>
+        <Authors>Jinx-Laboratories</Authors>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MiNET.fnbt" Version="1.0.22" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+</Project>
