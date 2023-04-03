@@ -5,7 +5,7 @@
         <Nullable>enable</Nullable>
         <OutputType>Library</OutputType>
         <LangVersion>11</LangVersion>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFramework>net8.0</TargetFramework>
         <RepositoryUrl>https://github.com/Jinx-Laboratories/JinxCraft.git</RepositoryUrl>
         <Authors>Jinx-Laboratories</Authors>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
