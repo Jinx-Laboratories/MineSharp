@@ -16,15 +16,6 @@ jobs:
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '8'
-          
-      - name: Update version in main branch
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          version=$(git tag --list --points-at HEAD)
-          sed -i.bak "s|<Version>.*</Version>|<Version>$version</Version>|" **/*.csproj
-          git commit -a -m "Bump version to $version"
-          git push
 
       - name: Build and Publish NuGet Packages
         env:
