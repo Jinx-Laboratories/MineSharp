@@ -16,7 +16,6 @@
       <ProjectReference Include="..\..\..\Components\MineSharp.Components.Protocol\MineSharp.Components.Protocol.csproj" />
       <ProjectReference Include="..\..\..\Data\MineSharp.Data\MineSharp.Data.csproj" />
       <ProjectReference Include="..\..\Barebones\MineSharp.Skeletons.Barebones.Client\MineSharp.Skeletons.Barebones.Client.csproj" />
-      <ProjectReference Include="..\Barebones\MineSharp.Client\MineSharp.Client.csproj" />
     </ItemGroup>
 
 </Project>
